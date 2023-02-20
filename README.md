@@ -1,7 +1,7 @@
 # Server
 Simple python ssh server
 
-#Description
+# Description
 The Python script is designed to create an SSH server on a Linux system. 
 It uses the Paramiko library to implement the SSH protocol, and allows clients to connect to 
 the server and execute commands remotely.
@@ -15,11 +15,11 @@ The server will execute the commands and send the output back to the client. The
 but can be customized to allow additional commands to be executed.
 
 
-#Changing port number
+# Changing port number
 1. Locate the line ssh_server = paramiko.Transport(('0.0.0.0', 22)).
 2. Change the number 22 to the desired port number.
 
-#Changing username/passowrd
+# Changing username/passowrd
 1. Locate the check_auth_password function in the script.
 2. Replace the string 'username' with the desired username and the string 'password' with the desired password.
 
